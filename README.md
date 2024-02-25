@@ -7,6 +7,9 @@ Starting project for a course on Advanced Node @ Udemy
 - Change into the client directory and run `npm install --legacy-peer-deps`
 - Change back into the root of the project and run `npm run dev` to start the server
 - Access the application at `localhost:3000` in your browser
+- Running redis docker image: docker run -d -p 6379:6379 redis
+- cd client && yarn start
+
 
 **Important:**
 The credentials for the Mongo Atlas DB in `dev.js` are read only. If you attempt to log in without first adding your own connection string (covered later in the course) you will see an error: `[0] MongoError: user is not allowed to do action [insert] on [advnode.users]`
